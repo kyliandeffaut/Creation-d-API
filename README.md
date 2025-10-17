@@ -89,3 +89,22 @@ Réponse attendue :
   "message": "Utilisateur Alice ajouté avec succès !",
   "email": "alice@example.com"
 }
+
+Tests avec Postman
+
+Ouvre Postman
+
+Crée une requête GET → http://localhost:4000/users
+
+Crée une requête POST → http://localhost:4000/users
+
+Onglet Body → raw → JSON
+
+Données :
+{
+  "name": "Alice",
+  "email": "alice@example.com"
+}
+
+Kylian Deffaut
+TP Web Avancé – Création d’API avec Node.js
